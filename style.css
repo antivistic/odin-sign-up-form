@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width:80%;
+    height: 100vh;
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    border: 2px solid green;
+}
+
+.hero-image-left {
+    background-image: url("/home/antivistic/repos/odin-sign-up-form/img/space.webp");
+    border: 2px solid red;
+    width: 40%;
+}
+
+.main-content {
+    border: 2px solid blue;
+}
